@@ -15,6 +15,7 @@ public class CharacterAssistSelector : MonoBehaviour
     [SerializeField] private GameObject _arrows = default;
     [SerializeField] private AssistStatsSO[] assistStatsSO = default;
     [SerializeField] private bool _isPlayerOne = default;
+    [SerializeField] private CharacterMenu _characterMenu = default;
     private Audio _audio;
     private Vector2 _directionInput;
     private int _assistCount;
@@ -101,6 +102,12 @@ public class CharacterAssistSelector : MonoBehaviour
         }
     }
 
+    public void Undo()
+    {
+	    gameObject.SetActive(false);
+	    _characterMenu.RestoreCharacterSelection();
+    }
+
 
     IEnumerator ResetInput()
     {
@@ -123,5 +130,11 @@ public class CharacterAssistSelector : MonoBehaviour
         transform.GetChild(0).gameObject.SetActive(true);
         if (_assistAnimator != null)
             _assistAnimator.Rebind();
+    }
+
+    public void ResetAssist()
+    {
+	    gameObject.SetActive(false);
+	    gameObject.SetActive(true);
     }
 }

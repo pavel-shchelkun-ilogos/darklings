@@ -15,6 +15,11 @@ public class CharacterButton : MonoBehaviour, ISelectHandler, IDeselectHandler, 
 
     public PlayerStatsSO PlayerStatsSO { get { return _playerStatsSO; } set { } }
     public bool IsRandomizer { get { return _isRandomizer; } private set { } }
+    
+    public bool IsSelectedByFirstPlayer => _firstPlayerSelector.activeSelf;
+    public bool IsSelectedBySecondPlayer => _secondPlayerSelector.activeSelf;
+    
+    public void ResetBackground() => _backgroundImage.SetActive(false);
 
     void Start()
     {

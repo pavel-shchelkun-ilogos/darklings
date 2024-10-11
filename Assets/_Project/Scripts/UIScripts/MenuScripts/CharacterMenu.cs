@@ -41,6 +41,10 @@ public class CharacterMenu : BaseMenu
     private EventSystem _currentEventSystem;
     private Coroutine _tauntCoroutine;
     private AsyncOperation _asyncLoad;
+    
+    private PromptsInput _firstCharacterPromptsInput;
+    private PromptsInput _secondCharacterPromptsInput;
+    
     public bool FirstCharacterSelected { get; private set; }
     public bool FirstCharacterLocked { get; private set; }
     public bool SecondCharacterLocked { get; private set; }
@@ -111,6 +115,7 @@ public class CharacterMenu : BaseMenu
         _playerTwoName.enabled = true;
         if (!FirstCharacterSelected)
         {
+	        _firstCharacterPromptsInput = _inputManager.CurrentPrompts;
             FirstCharacterLocked = true;
             _assistOneUIRenderer.gameObject.SetActive(true);
             _assistOne.SetActive(true);
@@ -130,6 +135,7 @@ public class CharacterMenu : BaseMenu
         }
         else
         {
+	        _secondCharacterPromptsInput = _inputManager.CurrentPrompts;
             SecondCharacterLocked = true;
             _assistTwoUIRenderer.gameObject.SetActive(true);
             _assistTwo.SetActive(true);
@@ -146,6 +152,46 @@ public class CharacterMenu : BaseMenu
             _arcanaTextTwo.text = $"LV{_playerStats.arcanaLevel}";
             _speedTextTwo.text = $"LV{_playerStats.speedLevel}";
             SceneSettings.PlayerTwo = _playerStats.characterIndex;
+        }
+    }
+
+    public void RestoreCharacterSelection()
+    {
+	    if (SecondCharacterLocked)
+	    {
+		    SecondCharacterLocked = false;
+		    _assistTwoUIRenderer.gameObject.SetActive(false);
+		    _assistTwo.SetActive(false);
+		    SceneSettings.PlayerTwo = 0;
+		    _inputManager.SetPrompts(_secondCharacterPromptsInput);
+	    }
+        else
+        {
+	        FirstCharacterSelected = false;
+            FirstCharacterLocked = false;
+            _assistOneUIRenderer.gameObject.SetActive(false);
+            _assistOne.SetActive(false);
+            SceneSettings.PlayerOne = 0;
+            _inputManager.SetPrompts(_firstCharacterPromptsInput);
+        }
+	    
+	    _playerOneName.enabled = false;
+	    _playerTwoName.enabled = false;
+        
+        _currentEventSystem.sendNavigationEvents = true;
+
+        for (int i = 0; i < _characterButtons.Length; i++)
+        {
+	        _characterButtons[i].enabled = true;
+	        
+	        var characterButton = _characterButtons[i].GetComponent<CharacterButton>();
+	        if (characterButton != null)
+	        {
+		        if (!FirstCharacterSelected && characterButton.IsSelectedByFirstPlayer)
+			        characterButton.ResetBackground();
+		        else if (FirstCharacterSelected && (characterButton.IsSelectedBySecondPlayer && !characterButton.IsSelectedByFirstPlayer))
+			        characterButton.ResetBackground();
+	        }
         }
     }
 

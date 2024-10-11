@@ -94,4 +94,10 @@ public class InputManager : MonoBehaviour
         if (callbackContext.performed)
             CurrentPrompts?.OnOptions?.Invoke();
     }
+
+    public void Undo(CallbackContext callbackContext)
+    {
+	    if (callbackContext.performed)
+		    CurrentPrompts?.OnUndo?.Invoke();
+    }
 }
