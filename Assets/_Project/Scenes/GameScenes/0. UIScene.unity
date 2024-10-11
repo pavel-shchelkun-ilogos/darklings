@@ -1461,7 +1461,6 @@ MonoBehaviour:
   _startingOption: {fileID: 613496610}
   _inputManager: {fileID: 1856510700}
   _audioMixer: {fileID: 24100000, guid: 37e1cd9c9cb5cd04b84c8b8502c44908, type: 2}
-  _firstSelectable: {fileID: 613496610}
   _pauseMenu: {fileID: 0}
   _pauseTrainingMenu: {fileID: 0}
 --- !u!225 &49358509
@@ -1687,6 +1686,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -1695,6 +1695,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -4090,8 +4091,6 @@ MonoBehaviour:
   _previousMenu: {fileID: 9123090234613714751}
   _backgroundImage: {fileID: 0}
   _inputManager: {fileID: 1856510700}
-  _menuTitle: {fileID: 389501576}
-  _menuTitleText: {fileID: 1737728098}
   _animator: {fileID: 114763692}
   _canvas: {fileID: 114763690}
   _previousSelectable: {fileID: 0}
@@ -4885,6 +4884,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 478e3eccee1ceb14aad78d7ad468d63f, type: 3}
     volume: 1
@@ -4893,6 +4893,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -6403,6 +6404,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -6411,6 +6413,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -7024,6 +7027,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -7032,6 +7036,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -7918,6 +7923,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -7926,6 +7932,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -8278,6 +8285,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -8286,6 +8294,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -8760,6 +8769,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -8768,6 +8778,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -8986,6 +8997,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -8994,6 +9006,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -9667,6 +9680,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 217941994}
     clip: {fileID: 8300000, guid: 478e3eccee1ceb14aad78d7ad468d63f, type: 3}
     volume: 1
@@ -9675,6 +9689,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -10410,6 +10425,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 230695889}
     clip: {fileID: 8300000, guid: 478e3eccee1ceb14aad78d7ad468d63f, type: 3}
     volume: 1
@@ -10418,6 +10434,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -11673,6 +11690,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 272466893}
     clip: {fileID: 8300000, guid: 478e3eccee1ceb14aad78d7ad468d63f, type: 3}
     volume: 1
@@ -11681,6 +11699,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -12155,6 +12174,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   OnOptions:
+    m_PersistentCalls:
+      m_Calls: []
+  OnUndo:
     m_PersistentCalls:
       m_Calls: []
 --- !u!1 &279814408
@@ -14503,6 +14525,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -14511,6 +14534,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -15236,6 +15260,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -15244,6 +15269,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -15461,6 +15487,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -15469,6 +15496,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -15743,6 +15771,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -15751,6 +15780,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -16185,6 +16215,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -16193,6 +16224,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -18071,7 +18103,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _startingOption: {fileID: 0}
-  _topBarMenu: {fileID: 114763691}
   _homeMenu: {fileID: 9123090234613714751}
   _characterMenu: {fileID: 742601086}
   _playerIcons:
@@ -18108,6 +18139,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -18116,6 +18148,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -19523,6 +19556,9 @@ MonoBehaviour:
   OnOptions:
     m_PersistentCalls:
       m_Calls: []
+  OnUndo:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &422592753
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20372,6 +20408,9 @@ MonoBehaviour:
   OnOptions:
     m_PersistentCalls:
       m_Calls: []
+  OnUndo:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &437487914
 GameObject:
   m_ObjectHideFlags: 0
@@ -20649,8 +20688,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 444084334}
-  m_LocalRotation: {x: -0, y: -1.2899126e-12, z: -2.1632712e-24, w: 1}
-  m_LocalPosition: {x: 4.927466e-10, y: -20.481941, z: -191}
+  m_LocalRotation: {x: 1e-45, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -20.48194, z: -191}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -23130,6 +23169,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -23138,6 +23178,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -23668,6 +23709,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -23676,6 +23718,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -23825,6 +23868,7 @@ MonoBehaviour:
     loop: 1
     playOnAwake: 1
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -24037,6 +24081,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -24045,6 +24090,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -24291,7 +24337,6 @@ MonoBehaviour:
   - {fileID: 1530591279}
   - {fileID: 1041356040}
   - {fileID: 726202409}
-  _firstSelectable: {fileID: 2078034449}
 --- !u!114 &527225415
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24314,6 +24359,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -24656,6 +24702,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 478e3eccee1ceb14aad78d7ad468d63f, type: 3}
     volume: 1
@@ -24664,6 +24711,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -24694,6 +24742,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b6e45e41ee7306646a5f76f8d2262378, type: 2}
   - {fileID: 11400000, guid: c9b50597a3e354b4c951b7a4da6cf892, type: 2}
   _isPlayerOne: 1
+  _characterMenu: {fileID: 742601086}
 --- !u!114 &541771793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24792,6 +24841,21 @@ MonoBehaviour:
   OnOptions:
     m_PersistentCalls:
       m_Calls: []
+  OnUndo:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 541771792}
+        m_TargetAssemblyTypeName: CharacterAssistSelector, Scripts
+        m_MethodName: Undo
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &543828430
 GameObject:
   m_ObjectHideFlags: 0
@@ -24921,6 +24985,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   OnOptions:
+    m_PersistentCalls:
+      m_Calls: []
+  OnUndo:
     m_PersistentCalls:
       m_Calls: []
 --- !u!114 &543828434
@@ -25797,6 +25864,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -25805,6 +25873,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -25993,6 +26062,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -26001,6 +26071,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -26398,6 +26469,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   OnOptions:
+    m_PersistentCalls:
+      m_Calls: []
+  OnUndo:
     m_PersistentCalls:
       m_Calls: []
 --- !u!114 &575084015
@@ -28479,6 +28553,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 613496612}
     clip: {fileID: 8300000, guid: 478e3eccee1ceb14aad78d7ad468d63f, type: 3}
     volume: 1
@@ -28487,6 +28562,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -30034,6 +30110,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -30042,6 +30119,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -30864,6 +30942,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  OnUndo:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &668970651
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33159,6 +33240,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -33167,6 +33249,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -34933,6 +35016,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -34941,6 +35025,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -36314,6 +36399,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -36322,6 +36408,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -37209,6 +37296,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -37217,6 +37305,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -37604,6 +37693,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -37612,6 +37702,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -38336,6 +38427,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -38344,6 +38436,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -39995,6 +40088,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -40003,6 +40097,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -40762,6 +40857,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -40770,6 +40866,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -43456,6 +43553,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -43464,6 +43562,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -43952,6 +44051,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -43960,6 +44060,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -44190,6 +44291,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   OnOptions:
+    m_PersistentCalls:
+      m_Calls: []
+  OnUndo:
     m_PersistentCalls:
       m_Calls: []
 --- !u!1 &944407335
@@ -44476,6 +44580,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -44484,6 +44589,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -44797,6 +44903,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   OnOptions:
+    m_PersistentCalls:
+      m_Calls: []
+  OnUndo:
     m_PersistentCalls:
       m_Calls: []
 --- !u!114 &961275948
@@ -45246,6 +45355,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   OnOptions:
+    m_PersistentCalls:
+      m_Calls: []
+  OnUndo:
     m_PersistentCalls:
       m_Calls: []
 --- !u!1 &974323372
@@ -45786,6 +45898,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -45794,6 +45907,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -46166,6 +46280,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -46174,6 +46289,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -46339,8 +46455,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 998273396}
-  m_LocalRotation: {x: -0, y: -1.2899126e-12, z: -2.1632712e-24, w: 1}
-  m_LocalPosition: {x: 2.5798252e-11, y: -42, z: -190}
+  m_LocalRotation: {x: 1e-45, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -42, z: -190}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -46563,6 +46679,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -46571,6 +46688,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -46974,6 +47092,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -46982,6 +47101,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -47196,6 +47316,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -47204,6 +47325,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -47365,6 +47487,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   OnOptions:
+    m_PersistentCalls:
+      m_Calls: []
+  OnUndo:
     m_PersistentCalls:
       m_Calls: []
 --- !u!114 &1012718795
@@ -48425,6 +48550,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -48433,6 +48559,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -49140,6 +49267,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 478e3eccee1ceb14aad78d7ad468d63f, type: 3}
     volume: 1
@@ -49148,6 +49276,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -49981,6 +50110,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -49989,6 +50119,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -50099,6 +50230,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -50107,6 +50239,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -50511,6 +50644,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -50519,6 +50653,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -50884,6 +51019,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -50892,6 +51028,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -51833,6 +51970,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -51841,6 +51979,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -54150,6 +54289,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -54158,6 +54298,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -55306,6 +55447,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -55314,6 +55456,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -58100,6 +58243,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -58108,6 +58252,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -59193,6 +59338,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -59201,6 +59347,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -59802,6 +59949,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -59810,6 +59958,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -61226,7 +61375,6 @@ MonoBehaviour:
   _scrollView: {fileID: 1783618884}
   _patchNotes: {fileID: 1380893995}
   _boundaries: {x: -1828.545, y: 1278.545}
-  _firstSelectable: {fileID: 2078034449}
 --- !u!95 &1282402764
 Animator:
   serializedVersion: 5
@@ -61548,6 +61696,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 1282974417}
     clip: {fileID: 8300000, guid: 478e3eccee1ceb14aad78d7ad468d63f, type: 3}
     volume: 1
@@ -61556,6 +61705,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -63114,6 +63264,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -63122,6 +63273,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -64278,6 +64430,9 @@ MonoBehaviour:
   OnOptions:
     m_PersistentCalls:
       m_Calls: []
+  OnUndo:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1346352337
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65152,6 +65307,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -65160,6 +65316,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -67717,6 +67874,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -67725,6 +67883,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -68036,6 +68195,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -68044,6 +68204,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -73141,6 +73302,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -73149,6 +73311,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -74099,6 +74262,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -74107,6 +74271,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -77332,6 +77497,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -77340,6 +77506,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -81195,6 +81362,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -81203,6 +81371,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -84222,6 +84391,9 @@ MonoBehaviour:
   OnOptions:
     m_PersistentCalls:
       m_Calls: []
+  OnUndo:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1760969375
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -84376,6 +84548,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -84384,6 +84557,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -84856,6 +85030,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 478e3eccee1ceb14aad78d7ad468d63f, type: 3}
     volume: 1
@@ -84864,6 +85039,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -84894,6 +85070,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b6e45e41ee7306646a5f76f8d2262378, type: 2}
   - {fileID: 11400000, guid: c9b50597a3e354b4c951b7a4da6cf892, type: 2}
   _isPlayerOne: 0
+  _characterMenu: {fileID: 742601086}
 --- !u!114 &1772714358
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -84992,6 +85169,21 @@ MonoBehaviour:
   OnOptions:
     m_PersistentCalls:
       m_Calls: []
+  OnUndo:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1772714357}
+        m_TargetAssemblyTypeName: CharacterAssistSelector, Scripts
+        m_MethodName: Undo
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1776703712
 GameObject:
   m_ObjectHideFlags: 0
@@ -85201,6 +85393,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -85209,6 +85402,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -87472,6 +87666,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  OnUndo:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1827527490
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -88149,6 +88346,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -88157,6 +88355,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -88590,6 +88789,22 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: ff047904-44a4-4826-ac15-f677187cb418
     m_ActionName: UI/Options[/Keyboard/p,/XInputControllerWindows/select]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1856510700}
+        m_TargetAssemblyTypeName: InputManager, Scripts
+        m_MethodName: Undo
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: f7fbfe3f-a68e-40a3-8dc0-955dd89885ca
+    m_ActionName: UI/Undo[/Keyboard/backspace]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: UI
@@ -90095,6 +90310,9 @@ MonoBehaviour:
   OnOptions:
     m_PersistentCalls:
       m_Calls: []
+  OnUndo:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1886072748
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -90263,6 +90481,9 @@ MonoBehaviour:
   OnOptions:
     m_PersistentCalls:
       m_Calls: []
+  OnUndo:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1886699824
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -90397,6 +90618,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -90405,6 +90627,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -91801,6 +92024,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -91809,6 +92033,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -92014,6 +92239,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   OnOptions:
+    m_PersistentCalls:
+      m_Calls: []
+  OnUndo:
     m_PersistentCalls:
       m_Calls: []
 --- !u!1 &1918611389
@@ -92431,6 +92659,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -92439,6 +92668,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -92985,6 +93215,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -92993,6 +93224,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -93518,6 +93750,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -93526,6 +93759,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -94618,6 +94852,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -94626,6 +94861,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -96688,6 +96924,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -96696,6 +96933,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -97673,6 +97911,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -97681,6 +97920,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -98525,6 +98765,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -98533,6 +98774,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -98959,6 +99201,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 2057363122}
     clip: {fileID: 8300000, guid: 478e3eccee1ceb14aad78d7ad468d63f, type: 3}
     volume: 1
@@ -98967,6 +99210,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -99611,6 +99855,7 @@ MonoBehaviour:
   _playerUIRender: {fileID: 631350313}
   _arrows: {fileID: 827694878}
   _isPlayerOne: 0
+  _assists: {fileID: 1772714357}
 --- !u!114 &2069834481
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -99633,6 +99878,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 478e3eccee1ceb14aad78d7ad468d63f, type: 3}
     volume: 1
@@ -99641,6 +99887,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -99742,6 +99989,21 @@ MonoBehaviour:
   OnOptions:
     m_PersistentCalls:
       m_Calls: []
+  OnUndo:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2069834480}
+        m_TargetAssemblyTypeName: CharacterColorSelector, Scripts
+        m_MethodName: Undo
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2072859639
 GameObject:
   m_ObjectHideFlags: 0
@@ -101165,6 +101427,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -101173,6 +101436,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -101558,6 +101822,7 @@ MonoBehaviour:
   _playerUIRender: {fileID: 1102111927}
   _arrows: {fileID: 1619602088}
   _isPlayerOne: 1
+  _assists: {fileID: 541771792}
 --- !u!114 &2101563751
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -101580,6 +101845,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 478e3eccee1ceb14aad78d7ad468d63f, type: 3}
     volume: 1
@@ -101588,6 +101854,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -101689,6 +101956,21 @@ MonoBehaviour:
   OnOptions:
     m_PersistentCalls:
       m_Calls: []
+  OnUndo:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2101563750}
+        m_TargetAssemblyTypeName: CharacterColorSelector, Scripts
+        m_MethodName: Undo
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2101739563
 GameObject:
   m_ObjectHideFlags: 0
@@ -102330,6 +102612,9 @@ MonoBehaviour:
   OnOptions:
     m_PersistentCalls:
       m_Calls: []
+  OnUndo:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &2109003791
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -102906,6 +103191,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -102914,6 +103200,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -103800,6 +104087,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -103808,6 +104096,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -104168,6 +104457,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -104176,6 +104466,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -104951,6 +105242,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -104959,6 +105251,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -106684,6 +106977,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -106692,6 +106986,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -106747,6 +107042,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   - source: {fileID: 0}
     clip: {fileID: 8300000, guid: 69c0e9d71b7495143bf1e2736234db5c, type: 3}
     volume: 1
@@ -106755,6 +107051,7 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     playOneInstanceAtATime: 0
+    chance: 0
   _sounds3D: []
   _soundGroups: []
   _soundGroups3D: []
@@ -107133,7 +107430,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _startingOption: {fileID: 2078034449}
-  _topBarMenu: {fileID: 114763691}
   _playerUIRender: {fileID: 2100744166}
   _playerOnlineUIRender: {fileID: 90086485}
   _playerName: {fileID: 899338981}

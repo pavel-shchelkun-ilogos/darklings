@@ -13,6 +13,7 @@ public class CharacterColorSelector : MonoBehaviour
     [SerializeField] private PlayerUIRender _playerUIRender = default;
     [SerializeField] private GameObject _arrows = default;
     [SerializeField] private bool _isPlayerOne = default;
+    [SerializeField] private CharacterAssistSelector _assists = default;
     private Audio _audio;
     private Vector2 _directionInput;
     private bool _inputDeactivated;
@@ -80,6 +81,15 @@ public class CharacterColorSelector : MonoBehaviour
             transform.GetChild(0).gameObject.SetActive(false);
             _assistIndicatorText.gameObject.SetActive(false);
         }
+    }
+
+    public void Undo()
+    {
+	    if (_inputDeactivated) return;
+	    
+	    Debug.Log($"{GetType().Name}: Undo");
+	    gameObject.SetActive(false);
+	    _assists.ResetAssist();
     }
 
     IEnumerator ResetInput()

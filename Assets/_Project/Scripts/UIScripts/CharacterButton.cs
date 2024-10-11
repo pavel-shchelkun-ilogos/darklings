@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -15,6 +16,15 @@ public class CharacterButton : MonoBehaviour, ISelectHandler, IDeselectHandler, 
 
     public PlayerStatsSO PlayerStatsSO { get { return _playerStatsSO; } set { } }
     public bool IsRandomizer { get { return _isRandomizer; } private set { } }
+    
+    public bool IsSelectedByPlayerOne => _firstPlayerSelector.activeSelf;
+    
+    public bool IsSelectedByPlayerTwo => _secondPlayerSelector.activeSelf;
+
+    public void ResetBackground()
+    {
+	    _backgroundImage.SetActive(false);
+    }
 
     void Start()
     {
