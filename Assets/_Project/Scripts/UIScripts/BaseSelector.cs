@@ -22,6 +22,8 @@ public class BaseSelector : MonoBehaviour, ISelectHandler, IDeselectHandler, IPo
     protected Button _button;
 
     public int Value { get; private set; }
+    
+    public UnityEventInt OnSetValue => _eventInt;
 
 
     void Awake()
@@ -75,14 +77,14 @@ public class BaseSelector : MonoBehaviour, ISelectHandler, IDeselectHandler, IPo
     public void MoveScrollDown(BaseEventData eventData)
     {
         AxisEventData axisEventData = eventData as AxisEventData;
-        if (axisEventData.moveDir == MoveDirection.Down)
+        if (axisEventData.moveDir == MoveDirection.Down && _scrollView != null)
             _scrollView.anchoredPosition += new Vector2(0.0f, _scrollDownAmount);
     }
 
     public void MoveScrollUp(BaseEventData eventData)
     {
         AxisEventData axisEventData = eventData as AxisEventData;
-        if (axisEventData.moveDir == MoveDirection.Up)
+        if (axisEventData.moveDir == MoveDirection.Up && _scrollView != null)
             _scrollView.anchoredPosition += new Vector2(0.0f, _scrollUpAmount);
     }
 
