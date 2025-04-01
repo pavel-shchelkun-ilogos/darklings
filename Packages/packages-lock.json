@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.codemaestro.assetbuilder": {
-      "version": "file:/Users/pavelshchelkun/Projects/Code_Maestro_Unity/CodeMaestroUnity/Builds/Dev/com.codemaestro.assetbuilder-0.0.7.tgz",
+      "version": "file:/Users/pavelshchelkun/Projects/Code_Maestro_Unity/CodeMaestroUnity/Builds/Dev/com.codemaestro.assetbuilder-0.0.9.tgz",
       "depth": 0,
       "source": "local-tarball",
       "dependencies": {}
